@@ -5,7 +5,9 @@ cd bbc-asian-network-live-transcode/service/
 To start Run:
 chmod +x start_all_services.sh
 sudo ./start_all_services.sh
+systemctl status bbc-anlt.service
 
 To stop all Run:
 chmod +x stop_all_services.sh
 sudo ./stop_all_services.sh
+systemctl status bbc-anlt.service
