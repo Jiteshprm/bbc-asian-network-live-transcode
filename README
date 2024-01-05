@@ -1,7 +1,11 @@
+Checkout:
+git clone https://github.com/Jiteshprm/bbc-asian-network-live-transcode.git
+cd bbc-asian-network-live-transcode/service/
+
 To start Run:
-chmod +x service/start_all_services.sh
-service/start_all_services.sh
+chmod +x start_all_services.sh
+sudo ./start_all_services.sh
 
 To stop all Run:
-chmod +x service/stop_all_services.sh
-service/stop_all_services.sh
+chmod +x stop_all_services.sh
+sudo ./stop_all_services.sh

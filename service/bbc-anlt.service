@@ -5,15 +5,15 @@ Description=BBC Asian Network Live Transcode
 #OnFailure=notify@%n.service
 
 [Service]
-User=birdofprey
+User=pi
 # The configuration file application.properties should be here:
 
 #change this to your workspace
-WorkingDirectory=/home/birdofprey/bbc-asian-network-live-transcode/src
+WorkingDirectory=/home/pi/bbc-asian-network-live-transcode/src
 
 #path to executable.
 #executable is a bash script which calls jar file
-ExecStart=/home/birdofprey/bbc-asian-network-live-transcode/src/bbc_asian_network_live_transcode.sh
+ExecStart=/home/pi/bbc-asian-network-live-transcode/src/bbc_asian_network_live_transcode.sh
 
 SuccessExitStatus=0
 TimeoutStopSec=10
