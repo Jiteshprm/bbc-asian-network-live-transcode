@@ -1,0 +1,7 @@
+To start Run:
+chmod +x service/start_all_services.sh
+service/start_all_services.sh
+
+To stop all Run:
+chmod +x service/stop_all_services.sh
+service/stop_all_services.sh
