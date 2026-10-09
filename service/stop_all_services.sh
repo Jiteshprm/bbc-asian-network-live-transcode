@@ -1,9 +1,11 @@
-#/bin/bash
+#!/bin/bash
+set -e
 set -x
-#Must be run as sudo
-if [ $EUID -ne 0 ]
-  then echo "Please run with sudo!"
-  exit
+
+# Must be run as sudo
+if [ $EUID -ne 0 ]; then
+  echo "Please run with sudo!"
+  exit 1
 fi
 
 
